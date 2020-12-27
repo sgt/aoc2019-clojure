@@ -2,10 +2,11 @@
   (:gen-class)
   (:require [aof2019.day1]
             [aof2019.day2]
-            [aof2019.day3]))
+            [aof2019.day3]
+            [aof2019.day4]))
 
 (defn- run [nspace func & args]
-  (time (apply (resolve (symbol nspace func)) args)))
+  {} (apply (resolve (symbol nspace func)) args))
 
 (defn -main [& args]
   (if (empty? args)

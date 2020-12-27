@@ -7,7 +7,7 @@
   (for [noun (range 99)
         verb (range 99)
         :when (let [prog (assoc input-prog 1 noun 2 verb)
-                    output (first (i/intcode prog))]
+                    output (first (:prog (i/intcode prog)))]
                 (= desired-output output))]
     [noun verb]))
 
@@ -19,7 +19,7 @@
 
 (defn part-one [input]
   (let [prog (assoc input 1 12 2 2)]
-    (first (i/intcode prog))))
+    (first (:prog (i/intcode prog)))))
 
 (defn part-two [input]
   (let [[noun verb] (first (search-inputs input 19690720))]
