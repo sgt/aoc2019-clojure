@@ -1,6 +1,6 @@
-(ns aof2019.day1-test
+(ns aoc2019.day1-test
   (:require [clojure.test :refer :all])
-  (:require [aof2019.day1 :refer :all]))
+  (:require [aoc2019.day1 :refer :all]))
 
 (deftest calc-fuel-test
   (testing "calc-fuel"

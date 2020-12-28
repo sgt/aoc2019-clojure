@@ -1,6 +1,6 @@
-(ns aof2019.day4-test
+(ns aoc2019.day4-test
   (:require [clojure.test :refer :all])
-  (:require [aof2019.day4 :refer :all]))
+  (:require [aoc2019.day4 :refer :all]))
 
 (deftest digits-test
   (testing "breaking int into digits"

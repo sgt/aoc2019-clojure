@@ -1,4 +1,4 @@
-(ns aof2019.intcode)
+(ns aoc2019.intcode)
 
 (defrecord Machine [prog input output])
 (defrecord Opcode [arity func])

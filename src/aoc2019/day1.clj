@@ -1,4 +1,4 @@
-(ns aof2019.day1
+(ns aoc2019.day1
   (:require [clojure.java.io :as io]))
 
 (defn calc-fuel [mass]

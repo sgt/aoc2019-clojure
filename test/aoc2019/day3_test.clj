@@ -1,6 +1,6 @@
-(ns aof2019.day3-test
+(ns aoc2019.day3-test
   (:require [clojure.test :refer :all])
-  (:require [aof2019.day3 :refer :all]))
+  (:require [aoc2019.day3 :refer :all]))
 
 (deftest parsing-input-test
   (testing "parsing input"

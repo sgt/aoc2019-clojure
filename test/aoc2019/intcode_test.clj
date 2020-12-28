@@ -1,6 +1,6 @@
-(ns aof2019.intcode-test
+(ns aoc2019.intcode-test
   (:require [clojure.test :refer :all])
-  (:require [aof2019.intcode :refer [intcode]]))
+  (:require [aoc2019.intcode :refer [intcode]]))
 
 (deftest intcode-test
   (testing "intcode vm"

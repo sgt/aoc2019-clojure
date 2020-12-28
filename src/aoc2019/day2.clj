@@ -1,6 +1,6 @@
-(ns aof2019.day2
+(ns aoc2019.day2
   (:require [clojure.java.io :as io]
-            [aof2019.intcode :as i]
+            [aoc2019.intcode :as i]
             [clojure.string :as s]))
 
 (defn- search-inputs [input-prog desired-output]

@@ -1,4 +1,4 @@
-(ns aof2019.day4)
+(ns aoc2019.day4)
 
 (defn digits [num]
   (loop [num num
